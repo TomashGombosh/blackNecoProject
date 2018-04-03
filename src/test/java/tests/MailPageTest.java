@@ -10,10 +10,10 @@ public class MailPageTest extends BaseTest {
     @Test(description = "Get access to demo site")
     public void getAccessToDemoSite(){
         objMail =new MailPage(driver);
-        assertEquals("Visit - here",objMail.getText() );
+        assertEquals("Visit - here",objMail.getVisitText());
         objMail.clickHere();
-        objMail.setEmailid();
+        objMail.setEmail();
         objMail.clickEmaildSubmit();
-        assertEquals("Access details to demo site.",objMail.accessDetails());
+        assertEquals("Access details to demo site.",objMail.getAccessDetails());
     }
 }
