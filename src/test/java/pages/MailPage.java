@@ -20,7 +20,7 @@ public class MailPage extends BasePage {
     public String getText() {
         return getText(visit);
     }
-    public void clickEmailSubmit() {
+    public void clickEmaildSubmit() {
         click(submit);
     }
     public String accessDetails() {
