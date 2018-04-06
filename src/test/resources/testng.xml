@@ -3,7 +3,7 @@
 <suite name="Test suite" preserve-order="true">
     <test name="Login Tests">
         <classes>
-            <class name="com.blackNecoProject.testng.tests.LoginTests">
+            <class name="tests.LoginTests">
                 <methods>
                     <include name="userCanLoginSuccessfully"/>
                     <include name="userCanLogout"/>
