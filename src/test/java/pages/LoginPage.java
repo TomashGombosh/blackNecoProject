@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -33,7 +34,11 @@ public class LoginPage extends BasePage {
     public String getLoginTitle(){
         return getText(titleText);
     }
-
+    public void alere() throws InterruptedException {
+        Alert alert = driver.switchTo().alert();
+        Thread.sleep(5000);
+        alert.accept();
+    }
     /**
      * This POM method will be exposed in test case to login in the application
      *

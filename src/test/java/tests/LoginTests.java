@@ -30,4 +30,5 @@ public class LoginTests extends BaseTest {
         //Verify home page
         Assert.assertTrue(objHomePage.getHomePageDashboardUserName().toLowerCase().contains("manger id : mgr123"));
     }
+
 }
