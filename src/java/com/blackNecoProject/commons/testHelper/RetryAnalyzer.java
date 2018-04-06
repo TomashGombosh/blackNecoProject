@@ -1,4 +1,4 @@
-package com.blackNecoProject.testng.commons.testHelper;
+package com.blackNecoProject.commons.testHelper;
 
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;

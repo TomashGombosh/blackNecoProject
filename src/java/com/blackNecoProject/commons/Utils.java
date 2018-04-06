@@ -1,7 +1,6 @@
-package com.blackNecoProject.testng.commons;
+package com.blackNecoProject.commons;
 
 import org.apache.commons.lang3.RandomStringUtils;
-
 import java.sql.Timestamp;
 import java.util.Date;
 import java.util.Random;
@@ -10,7 +9,6 @@ import java.util.Random;
  * Holds all the functions that aren't necessarily project related.
  */
 public class Utils {
-
 
     /**
      * Waits for a moment.
