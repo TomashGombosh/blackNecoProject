@@ -1,0 +1,15 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Expedite Tests" verbose="1" preserve-order="true">
+
+    <test name="Login test">
+        <classes>
+            <class name="com.blackNecoProject.tests.LoginTests">
+                <methods>
+                    <include name="userCanLoginSuccessfully"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

@@ -1,19 +1,18 @@
-package tests;
+package com.blackNecoProject.tests;
 
-import commons.Config;
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.MailPage;
+import com.blackNecoProject.pages.MailPage;
+
 import static org.testng.Assert.assertEquals;
 
-public class MailPageTest extends BaseTest {
+public class MailTest extends BaseTest {
     private MailPage mailPage;
 
-    @Test(description = "Get access to demo site" )
-    public void getAccessToDemoSite(){
-        mailPage =new MailPage(driver);
-        assertEquals("Visit - here",mailPage.getVisitText());
+    @Test(description = "Get access to demo site")
+    public void getAccessToDemoSite() {
+        mailPage = new MailPage(driver);
+        assertEquals("Visit - here", mailPage.getVisitText());
         mailPage.clickHere();
         mailPage.setEmail();
         mailPage.clickEmaildSubmit();
