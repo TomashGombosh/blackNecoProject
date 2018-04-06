@@ -1,4 +1,4 @@
-package commons;
+package com.blackNecoProject.commons;
 
 public class Config {
     //Valid credential
