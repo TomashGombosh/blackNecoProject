@@ -1,5 +1,6 @@
 package com.blackNecoProject.pages;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -32,6 +33,11 @@ public class LoginPage extends BasePage {
     //Get the title of Login Page
     public String getLoginTitle() {
         return getText(titleText);
+    }
+
+    public void alere()  {
+        Alert alert = driver.switchTo().alert();
+        alert.accept();
     }
 
     /**
