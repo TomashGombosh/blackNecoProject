@@ -44,4 +44,8 @@ public abstract class BasePage {
         waitToBeClickable(element);
         driver.findElement(element).click();
     }
+    public void setBirth(By element,String text ) {
+        waitToBeClickable(element);
+        driver.findElement(element).sendKeys(text);
+    }
 }
